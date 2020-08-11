@@ -1,0 +1,128 @@
+*
+{
+    margin : 0;
+    padding : 0;
+}
+a{
+    text-decoration: none;
+}
+.header
+{
+    background : white;
+    width : 100%;
+    position : fixed;
+    height: 50px;
+    display : flex;
+    color : black;
+    z-index : 1;
+}
+.header-left
+{
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    flex : 0.2;
+    font-size : 20px;
+    font-family: cursive;
+}
+.header-left a
+{
+    
+    color : rgba(254, 105, 1,1);
+}
+.header-middle
+{
+    display : flex;
+    flex : 0.7;
+}
+.header-middle ul
+{
+    list-style: none;
+    display: flex;
+    flex : 1;
+    justify-content: center;
+    align-items: center;
+    font-size : 17px;
+}
+.header-middle ul li
+{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.header-middle ul li ul
+{
+    background: white;
+    z-index : 1;
+    position: absolute;
+    left : 17%;
+    top : 50px;
+    display: none;
+    flex-direction: column;
+    padding : 10px;
+}
+.header-middle ul li:hover
+{
+    color : rgba(250, 130, 49,0.9);
+}
+.header-middle ul li:hover > ul
+{
+    display: block;
+    border-top: 4px solid black;
+}
+.header-middle ul li ul li
+{
+    padding : 5px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    color : black;
+}
+.header-middle ul li:nth-child(1) ul
+{
+    width: 290px;
+}
+.header-middle ul li:nth-child(2) ul
+{
+    width: 230px;
+}
+.header-middle ul li:nth-child(3) ul
+{
+    width: 230px;
+}
+
+.header-middle ul li ul li:hover
+{
+    color : rgba(254, 105, 1,1);
+    cursor : pointer;
+}
+.header-right
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex : 0.2;
+    padding-right : 2px;
+}
+.header-right button
+{
+    height : 45px;
+    color : white;
+    font-size: 17px;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    border-radius : 8px;
+    padding: 0px 15px;
+    margin : 0px 2px;
+}
+.header-right button:hover
+{
+    background : linear-gradient(90deg, #2980b9,#3498db);
+    cursor: pointer;
+}
+
+

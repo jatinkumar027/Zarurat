@@ -1,0 +1,71 @@
+.wrapper
+{
+    padding-top: 50px;
+}
+.all-functions-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-functions-container div:hover{
+    background: #ecf0f1;
+}
+.orders-op
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    padding : 10px 15px;
+    margin-top : -5px;
+    border : none;
+    cursor: pointer;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.tab{
+    border : 1px solid #bdc3c7;
+    height: 500px;
+    margin: 25px;
+    margin-top : 0;
+}
+
+
+.banner
+{
+    height: 300px;
+    display: flex;
+    background: #f5f6fa;
+}
+.left-banner
+{
+	display: flex;
+	flex: 1;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 20px;
+    flex-direction: column;
+}
+.right-banner
+{
+	display: flex;
+	flex : 0.7;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+    align-items: center;
+}
+.right-banner div
+{
+    display: flex;
+    flex : 1;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.right-banner div img
+{
+    height: 250px;
+}

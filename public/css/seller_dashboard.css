@@ -1,0 +1,244 @@
+.wrapper
+{
+	padding-top : 50px;
+}
+.register-shop-btn
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55vh;
+}
+.register-shop-btn button
+{
+	height: 60px;
+	width: 400px;
+	font-size: 22px;
+	border-radius: 15px;
+	background : #3498db;
+	color: white;
+	cursor: pointer;
+	border: none;
+}
+.register-shop-btn button:hover
+{
+	background : #20A694;
+}
+.register-shop-btn button:focus
+{
+	outline : none;
+}
+.radio-toolbar
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+.radio-toolbar label {
+    display: inline-block;
+    padding: 25px 25px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 1.5px solid #444;
+    border-radius: 4px;
+    margin:10px 20px;
+    cursor: pointer;
+}
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:#edf2fa;
+	border-color: #467fcf;
+	box-shadow : 0px 0px 6px 0px #edf2fa;
+}
+
+.radio-toolbar label:hover {
+  background-color: #edf2fa;
+}
+
+#create-button
+{
+	width: 100%;
+	height: 35px;
+	border: 2px solid #3498db;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+#create-button:hover
+{
+	background: #3498db;
+	color: white;
+}
+#create-button:focus
+{
+	outline: none;
+
+}
+.state-select
+{
+	height: 40px;
+	border:2px solid #7f8c8d;
+	margin-top: 30px;
+	font-size: 17px;
+	width: 100%;
+}
+.state-select:focus
+{
+	outline: none;
+}
+.input-style
+{
+	width: 98%;
+	height: 30px;
+	border:2px solid #7f8c8d;
+	margin-top: 30px; 
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-left: 5px;
+	font-size: 17px;
+}
+.input-style:focus
+{
+	outline:none;
+	border-bottom: 2px solid #3498db;
+	transition: border linear 500ms;
+}
+.submit-style 
+{
+	width: 80%;
+	height: 40px;
+	margin-top: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	font-size: 17px;
+	border:2px solid #3498db;
+	border-radius: 5px;
+}
+
+.div-btn
+{
+	width: 150px;
+	height: 40px;
+	border : 2px solid #3498db;
+	cursor: pointer;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.div-btn:hover
+{
+	background: #3498db;
+	color: white;
+}
+.shop-form-container
+{
+	margin: 10px 0px;
+	width: 100%;
+	display: flex;
+
+}
+.shop-form-container form
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.shop-type-container
+{
+	display: none;
+	padding: 20px;
+	width: 600px;
+	border : 1px solid #3498db;
+	box-shadow: 0px 0px 2px 0px #3498db;
+	border-radius: 6px;
+}
+.shop-type-container h3
+{
+	text-align: center;
+}
+.div-btn-container
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.shop-details
+{
+	display: none;
+	width: 600px;
+	padding: 20px;
+	border : 1px solid #3498db;
+	box-shadow: 0px 0px 2px 0px #3498db;
+	border-radius: 6px;
+    height: 650px;
+    margin-bottom : 25px;
+}
+#country-field
+{
+	cursor: no-drop;
+}
+
+.time-container
+{
+	display: flex;
+	margin-top : 20px;
+}
+
+#back-icon
+{
+	font-size: 20px;
+	cursor: pointer;
+}
+#back-icon:hover
+{
+ 	color: #3498db;
+}
+.bank-details
+{
+	display: none;
+	width: 600px;
+	padding: 20px;
+	border : 1px solid #3498db;
+	box-shadow: 0px 0px 2px 0px #3498db;
+	border-radius: 6px;
+	height: 650px;
+}
+.info
+{
+	height: 150px;
+}
+.main-bar-container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top : 10px;
+}
+.percentage-bar-container
+{
+	width: 600px;
+	display: flex;
+	justify-content: flex-start;
+	display: none;
+	border : 0.5px solid #bdc3c7;
+	height: 25px;
+	border-radius : 5px;
+}
+#percentage-bar
+{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+}
