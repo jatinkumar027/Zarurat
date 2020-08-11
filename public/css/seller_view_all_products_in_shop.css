@@ -1,0 +1,142 @@
+.thumbnail
+{
+	width: 100px;
+	height: 100px;
+}
+.product-list-container
+{
+	display: flex;
+	justify-content: center;
+}
+
+table
+{
+	border: 1px solid #ddd;
+	width: 97%;
+	border-collapse: collapse;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-family: 'Roboto',sans-serif;
+
+}
+td,th 
+{
+	border: 1px solid #ddd;
+}
+td
+{
+	padding: 8px;
+	text-align: center;
+}
+th
+{
+	padding: 8px 15px;
+	background: rgba(30, 77, 146 ,0.3);
+}
+tr:nth-child(even)
+{
+	background: #f2f2f2;
+}
+.options
+{
+	display: flex;
+	margin : 3px 0px;
+}
+
+.options label
+{
+	display: flex;
+	flex : 1;
+	padding: 5px;
+	align-items: center;
+	justify-content: center;
+	
+}
+.input-style
+{
+	width : 85%;
+	border : none;
+	cursor: no-drop;
+	text-align: center;
+}
+.input-style:focus{
+	outline: none;
+	background: #34495e;
+	color : white;
+	border : 0.5px solid #bdc3c7;
+}
+.icon-style
+{
+	font-size: 15px;
+}
+.toggle
+{
+	font-size: 20px;
+}
+.info
+{
+	height: 250px;
+}
+.message
+{
+	height: 35vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.shop-btn
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+	height: 100%;
+}
+.shop-btn button
+{
+	height: 60px;
+	width: 400px;
+	font-size: 22px;
+	border-radius: 15px;
+	background : #169483;
+	color: white;
+	cursor: pointer;
+	border: none;
+}
+.shop-btn button:hover
+{
+	background : #20A694;
+}
+.shop-btn button:focus
+{
+	outline : none;
+}
+select
+{
+	width : 100%;
+	height: 25px;
+	cursor: no-drop;
+}
+.success-pop-up
+{
+	text-align: center;
+	width:300px;
+	height:50px;
+	color:white ;
+	padding-top : 10px;
+	border-radius: 5px;
+	position: absolute;
+	top : 50%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	display: none;
+	font-size: 18px;
+}	
+.update-icon
+{
+	color : blue;
+	cursor : pointer;
+	font-size: 20px;
+	display: none;
+}

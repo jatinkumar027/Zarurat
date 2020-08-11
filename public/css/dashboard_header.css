@@ -1,0 +1,178 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+a{
+    text-decoration: none;
+}
+.header
+{
+    position: fixed;
+    height: 50px;
+    background: #2980b9;
+    color : white;
+    width: 100%;
+    display: flex;
+    z-index: 2;
+}
+.header-left
+{
+    display: flex;
+    flex : 0.4;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-right
+{
+    display: flex;
+    flex : 0.6;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header label,.header a
+{
+    height: 100%;
+    padding:0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 15px;
+    cursor: pointer;
+}
+.header label:hover
+{
+    background: #3498db;
+}
+.header label:hover > ul
+{
+    display: block;
+}
+.header a:hover
+{
+    background: #3498db;
+}
+.header label ul
+{
+    position: absolute;
+    box-shadow: 0px 0px 3px 0px black;
+    list-style: none;
+    top : 50px;
+    width: 220px;
+    display: none;
+    color : black;
+    background : white;
+}
+.header ul li,.header ul a
+{  
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header label ul li:hover,.header ul a:hover
+{
+    background: #3498db;;
+    color :white;
+}
+.success-pop-up
+{
+	text-align: center;
+	width:300px;
+	height:50px;
+	color:white ;
+	padding-top : 10px;
+	border-radius: 5px;
+	position: absolute;
+	top : 50%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	display: none;
+	font-size: 18px;
+}
+
+
+
+
+.change-password-popup
+{
+	position: absolute;
+	height: 270px;
+	width: 400px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border-radius:15px; 
+	background: white;
+	opacity:1;
+	box-shadow: 0px 0px 4px 0px #2d3436;
+	display: none;
+	position: fixed;
+	z-index: 3;
+}
+.change-password-popup form
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	align-content: space-evenly;
+	height: 200px;
+	margin-top: 5px;
+
+}
+.change-password-popup form input
+{
+	height: 37px;
+	width: 90%;
+	padding-left: 5px;
+	border: 1px solid #b2bec3;
+	border-radius: 6px;
+	font-size: 18px;
+}
+.change-password-popup form input:focus
+{
+    border: 1px solid #3498db;
+    
+	outline: none;
+}	
+#update-btn
+{
+	border: 2px solid #3498db;
+}
+#update-btn:hover
+{
+	background: #3498db;
+	color:white;
+}
+#update-btn:focus
+{
+	outline: none;
+}
+
+.cancel-icon-container
+{		
+	display: flex;
+	justify-content:space-between;
+	margin-bottom : 15px;
+
+}
+.cancel-icon-container label
+{
+	
+	margin-right: 10px;
+	margin-left : 20px;
+	margin-top : 5px;
+	font-size : 20px;
+	font-family : 'Roboto', Sans-serif;
+}
+.cancel-icon-container label i
+{
+	cursor: pointer;
+	font-size : 20px;
+}
+.cancel-icon-container label i:hover
+{
+	color : #3498db;
+}
